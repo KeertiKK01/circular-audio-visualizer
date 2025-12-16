@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+#startBtn {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background: #00ffd5;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#transcript {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #00ffd5;
+  font-size: 18px;
+}
