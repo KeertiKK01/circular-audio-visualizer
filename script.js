@@ -16,7 +16,7 @@ startBtn.addEventListener("click", async () => {
 
   // 🔗 BACKEND WEBSOCKET CONNECT (Render URL)
   socket = new WebSocket(
-    "wss://audio-streaming-backend.onrender.com/ws/audio"
+    "https://streaming-backend-0qu2.onrender.com/"
   );
 
   socket.onopen = () => {
